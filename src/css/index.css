@@ -1,0 +1,158 @@
+body,
+h2,
+dd,
+dl {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body {
+  background-size: cover;
+}
+#wrap {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-top: 15vw;
+  box-sizing: border-box;
+}
+#wrap .image {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 50%;
+  background-color: #000;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap .image img {
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+}
+#wrap .songInfo {
+  height: 20vh;
+  text-align: center;
+  margin-top: 6vw;
+  color: #fff;
+  font-size: 16px;
+}
+#wrap .songInfo h2 {
+  font-weight: 400;
+  margin-bottom: 3vw;
+  font-size: 24px;
+}
+#wrap .songInfo div {
+  font-size: 14px;
+  margin-top: 1vw;
+}
+#wrap .progress {
+  height: 8vw;
+  line-height: 8vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+}
+#wrap .progress .leftTime,
+#wrap .progress .rightTime {
+  padding: 0 4vw;
+}
+#wrap .progress .drag {
+  height: 8vw;
+  flex: 1 1 auto;
+  position: relative;
+}
+#wrap .progress .circle {
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  background: #fff;
+  border: 2vw solid rgba(0, 255, 255, 0);
+  background-clip: padding-box;
+  z-index: 3;
+  position: absolute;
+  left: -3vw;
+  top: 50%;
+  margin-top: -3vw;
+}
+#wrap .progress .frontBg,
+#wrap .progress .backBg {
+  width: 100%;
+  height: 0.6vw;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -0.3vw;
+  width: 0;
+}
+#wrap .progress .backBg {
+  background: rgba(255, 255, 255, 0.2);
+  width: 100%;
+}
+#wrap .control {
+  display: flex;
+  height: 16vw;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  bottom: 0;
+}
+#wrap .control li {
+  width: 20%;
+}
+#wrap .control li:nth-child(1) {
+  background: url(../image/icon-like.png) no-repeat center / 30%;
+}
+#wrap .control li:nth-child(1).liking {
+  background-image: url(../image/icon-like-solid.png);
+}
+#wrap .control li:nth-child(2) {
+  background: url(../image/icon-prev.png) no-repeat center / 30%;
+}
+#wrap .control li:nth-child(3) {
+  background: url(../image/icon-play.png) no-repeat center / 30%;
+}
+#wrap .control li:nth-child(3).playing {
+  background-image: url(../image/icon-pause.png);
+}
+#wrap .control li:nth-child(4) {
+  background: url(../image/icon-next.png) no-repeat center / 30%;
+}
+#wrap .control li:nth-child(5) {
+  background: url(../image/icon-list.png) no-repeat center / 30%;
+}
+#wrap .list {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  background: linear-gradient(#050505, rgba(175, 175, 175, 0.9));
+  z-index: 4;
+}
+#wrap .list dt,
+#wrap .list dd,
+#wrap .list .close {
+  height: 12vw;
+  line-height: 12vw;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+#wrap .list dt,
+#wrap .list .close {
+  text-align: center;
+}
+#wrap .list dd {
+  padding-left: 3vw;
+}
+#wrap .list dd.active {
+  color: #56b287;
+}
+#wrap .list .cloae {
+  border-bottom: none;
+}

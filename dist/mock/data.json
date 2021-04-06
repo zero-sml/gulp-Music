@@ -1,0 +1,56 @@
+[
+  {
+    "image": "../source/song_1.jpg",
+    "audioSrc": "../source/song_1.mp3",
+    "name": "无感",
+    "album": "无感",
+    "singer": "王一博",
+    "duration": 199,
+    "isLike": false
+  },
+  {
+    "image": "../source/song_2.jpg",
+    "audioSrc": "../source/song_2.mp3",
+    "name": "野狼Disco",
+    "album": "野狼Disco",
+    "singer": "宝石Gem",
+    "duration": 239,
+    "isLike": false
+  },
+  {
+    "image": "../source/song_3.jpg",
+    "audioSrc": "../source/song_3.mp3",
+    "name": "经济舱",
+    "album": "中国新说唱",
+    "singer": "KaFe.Hu",
+    "duration": 223,
+    "isLike": false
+  },
+  {
+    "image": "../source/song_4.jpg",
+    "audioSrc": "../source/song_4.mp3",
+    "name": "Something Just Like This",
+    "album": "Memories...Do Not Open",
+    "singer": "The Chainsmokers&Coldplay",
+    "duration": 247,
+    "isLike": false
+  },
+  {
+    "image": "../source/song_5.jpg",
+    "audioSrc": "../source/song_5.mp3",
+    "name": "我的世界守则",
+    "album": "我的世界守则",
+    "singer": "王一博",
+    "duration": 189,
+    "isLike": false
+  },
+  {
+    "image": "../source/song_6.jpg",
+    "audioSrc": "../source/song_6.mp3",
+    "name": "听妈妈的话",
+    "album": "依然范特西",
+    "singer": "周杰伦",
+    "duration": 266,
+    "isLike": true
+  }
+]
